@@ -46,5 +46,6 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.PEN011_AltZ</subsystems>
   <roles>Role.PEN011_ОсновнаяРоль</roles>
 </mdclass:Configuration>
