@@ -49,4 +49,5 @@
   <subsystems>Subsystem.PEN011_AltZ</subsystems>
   <roles>Role.PEN011_ОсновнаяРоль</roles>
   <commonCommands>CommonCommand.PEN011_AltZ</commonCommands>
+  <commonForms>CommonForm.PEN011_ФормаМенеджера</commonForms>
 </mdclass:Configuration>

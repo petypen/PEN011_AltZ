@@ -7,4 +7,5 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>CommonCommand.PEN011_AltZ</content>
+  <content>CommonForm.PEN011_ФормаМенеджера</content>
 </mdclass:Subsystem>
