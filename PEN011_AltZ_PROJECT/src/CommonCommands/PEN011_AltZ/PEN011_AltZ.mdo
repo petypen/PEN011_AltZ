@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80ea1d1a-2427-4c20-9ba9-0177f8cb8907">
+  <name>PEN011_AltZ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Alt+Z</value>
+  </synonym>
+  <comment>Старт менеджера инструментов разрработчика</comment>
+  <group>ActionsPanelTools</group>
+  <representation>Auto</representation>
+  <shortcut>Ctrl+S</shortcut>
+</mdclass:CommonCommand>

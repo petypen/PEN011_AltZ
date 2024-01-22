@@ -48,4 +48,5 @@
   </languages>
   <subsystems>Subsystem.PEN011_AltZ</subsystems>
   <roles>Role.PEN011_ОсновнаяРоль</roles>
+  <commonCommands>CommonCommand.PEN011_AltZ</commonCommands>
 </mdclass:Configuration>

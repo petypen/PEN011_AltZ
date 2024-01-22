@@ -6,4 +6,5 @@
     <value>Alt+Z</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonCommand.PEN011_AltZ</content>
 </mdclass:Subsystem>
