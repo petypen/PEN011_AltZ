@@ -1,0 +1,5 @@
+﻿editing.yml
+*.epf
+*.erf
+*.cfe
+PEN011_AltZ_PROJECT/.settings/*.prefs
