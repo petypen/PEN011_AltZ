@@ -8,5 +8,5 @@
   <comment>Старт менеджера инструментов разрработчика</comment>
   <group>ActionsPanelTools</group>
   <representation>Auto</representation>
-  <shortcut>Ctrl+S</shortcut>
+  <shortcut>Alt+Z</shortcut>
 </mdclass:CommonCommand>
