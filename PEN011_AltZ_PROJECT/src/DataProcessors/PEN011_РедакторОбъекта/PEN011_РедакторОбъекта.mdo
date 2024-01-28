@@ -4,18 +4,23 @@
     <objectType typeId="d0a1176a-27f3-4bf9-a82f-643236eb97d5" valueTypeId="645682a8-d152-42a1-bb6b-09485c5f8aec"/>
     <managerType typeId="d857d245-faca-46f0-996e-9f65d42dce0c" valueTypeId="e0756e6e-28d7-414e-8eee-d90b4bc21bdd"/>
   </producedTypes>
-  <name>СДРОбъектУпр</name>
+  <name>PEN011_РедакторОбъекта</name>
   <synonym>
     <key>ru</key>
-    <value>СДР: Редактор объекта ИБ</value>
+    <value>Редактор объекта</value>
   </synonym>
+  <comment>Автор https://infostart.ru/1c/tools/983887/</comment>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.СДРОбъектУпр.Form.ФормаОбъекта</defaultForm>
+  <defaultForm>DataProcessor.PEN011_РедакторОбъекта.Form.ФормаОбъекта</defaultForm>
   <help>
     <pages>
       <lang>ru</lang>
     </pages>
   </help>
+  <explanation>
+    <key>ru</key>
+    <value>Универсальная внешняя обработка для редактирования реквизитов и табличных частей объектов информационной базы, редактирование движений документов. </value>
+  </explanation>
   <forms uuid="8be0652c-1a57-4d47-8d23-ea383e5d1246">
     <name>ФормаОбъекта</name>
     <synonym>

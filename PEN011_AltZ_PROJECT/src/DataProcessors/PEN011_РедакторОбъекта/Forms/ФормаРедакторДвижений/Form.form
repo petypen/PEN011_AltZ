@@ -2344,7 +2344,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.СДРОбъектУпр</types>
+      <types>DataProcessorObject.PEN011_РедакторОбъекта</types>
     </valueType>
     <view>
       <common>true</common>

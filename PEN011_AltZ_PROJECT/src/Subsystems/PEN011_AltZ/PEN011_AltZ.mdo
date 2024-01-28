@@ -8,5 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <content>CommonCommand.PEN011_AltZ</content>
   <content>CommonForm.PEN011_ФормаМенеджера</content>
-  <content>DataProcessor.СДРОбъектУпр</content>
+  <content>DataProcessor.PEN011_РедакторОбъекта</content>
 </mdclass:Subsystem>
