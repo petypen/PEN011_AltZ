@@ -50,5 +50,6 @@
   <roles>Role.PEN011_ОсновнаяРоль</roles>
   <commonCommands>CommonCommand.PEN011_AltZ</commonCommands>
   <commonForms>CommonForm.PEN011_ФормаМенеджера</commonForms>
+  <dataProcessors>DataProcessor.PEN011_КонсольЗапросов9000</dataProcessors>
   <dataProcessors>DataProcessor.PEN011_РедакторОбъекта</dataProcessors>
 </mdclass:Configuration>
