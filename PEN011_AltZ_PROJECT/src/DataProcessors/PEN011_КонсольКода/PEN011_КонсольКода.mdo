@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41f9503e-1d45-4170-96d4-4af0b88704a6">
+  <producedTypes>
+    <objectType typeId="20d83ccf-d2c5-41a2-95e8-53f95fa0c9ab" valueTypeId="687f3f39-b9de-47b0-afe8-31a345f4e10c"/>
+    <managerType typeId="eb205ff4-d0b8-4803-8a44-95369a73a196" valueTypeId="2528c99c-10a6-4976-8ef0-65029b3dc8ae"/>
+  </producedTypes>
+  <name>PEN011_КонсольКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль кода</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>BSL-console</value>
+  </synonym>
+  <comment>Автор https://infostart.ru/1c/tools/1266087/</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.PEN011_КонсольКода.Form.Форма</defaultForm>
+  <attributes uuid="17c78c71-0a4f-412e-9501-669988116285">
+    <name>КаталогИсходногоКодаКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог исходного кода конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1ea8b224-e559-493a-88b6-dabeb78b059a">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="1f1bedfb-960a-4ff8-a64e-016de3431705">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c984638a-76e6-4463-a85e-9d86ada0efd5">
+    <name>src</name>
+    <synonym>
+      <key>ru</key>
+      <value>Src</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="8ef2b7a1-1791-45a5-b808-1a95cd5a6b3b">
+    <name>ПользовательскиеСниппеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользовательские сниппеты</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="90e75825-5565-4bbc-9410-d1ae68bb3738">
+    <name>ПользовательскиеФункции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользовательские функции</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="818d7577-143f-4992-bcd6-a9ebe158f16a">
+    <name>МакетЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет запроса</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

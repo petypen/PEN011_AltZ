@@ -8,7 +8,7 @@
       <id>3</id>
       <title>
         <key>ru</key>
-        <value>(1) Исследовать объект</value>
+        <value>Исследовать объект</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -43,7 +43,6 @@
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <shortcut>Ctrl+Alt+1</shortcut>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <handlers>
           <event>Click</event>
@@ -58,7 +57,7 @@
       <id>6</id>
       <title>
         <key>ru</key>
-        <value>(2) Консоль запросов</value>
+        <value>Консоль запросов</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -93,11 +92,59 @@
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <shortcut>Ctrl+Alt+2</shortcut>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <handlers>
           <event>Click</event>
           <name>ДекорацияКонсольЗапросовНажатие</name>
+        </handlers>
+        <hyperlink>true</hyperlink>
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ДекорацияКонсольКода</name>
+      <id>9</id>
+      <title>
+        <key>ru</key>
+        <value>Консоль кода</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ДекорацияКонсольКодаРасширеннаяПодсказка</name>
+        <id>11</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДекорацияКонсольКодаКонтекстноеМеню</name>
+        <id>10</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <handlers>
+          <event>Click</event>
+          <name>ДекорацияКонсольКодаНажатие</name>
         </handlers>
         <hyperlink>true</hyperlink>
         <horizontalAlign>Left</horizontalAlign>
