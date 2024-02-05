@@ -217,6 +217,7 @@
     </title>
     <id>1</id>
     <valueType>
+      <types>Null</types>
       <types>AnyRef</types>
     </valueType>
     <view>
