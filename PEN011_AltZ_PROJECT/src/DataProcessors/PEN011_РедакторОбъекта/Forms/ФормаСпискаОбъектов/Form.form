@@ -553,7 +553,27 @@
     <name>ПолноеИмя</name>
     <valueType>
       <types>String</types>
-      <stringQualifiers/>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ПутьКФормам</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>АдресаХранилищ</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
     </valueType>
   </parameters>
   <commandInterface>
