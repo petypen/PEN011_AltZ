@@ -208,6 +208,7 @@
       <key>ru</key>
       <value>Группа1</value>
     </title>
+    <horizontalStretch>false</horizontalStretch>
     <extendedTooltip>
       <name>ГруппаНавигацияРасширеннаяПодсказка</name>
       <id>2</id>
@@ -249,11 +250,11 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <width>60</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
-  <autoUrl>true</autoUrl>
   <group>AlwaysHorizontal</group>
-  <autoFillCheck>true</autoFillCheck>
+  <horizontalAlign>Center</horizontalAlign>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <showTitle>true</showTitle>
