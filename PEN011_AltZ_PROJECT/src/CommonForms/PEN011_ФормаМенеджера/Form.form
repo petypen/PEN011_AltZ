@@ -43,6 +43,7 @@
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
+      <shortcut>Ctrl+1</shortcut>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <handlers>
           <event>Click</event>
@@ -92,6 +93,7 @@
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
+      <shortcut>Ctrl+2</shortcut>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <handlers>
           <event>Click</event>
@@ -141,6 +143,7 @@
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
+      <shortcut>Ctrl+3</shortcut>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <handlers>
           <event>Click</event>
@@ -190,6 +193,7 @@
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
+      <shortcut>Ctrl+4</shortcut>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <handlers>
           <event>Click</event>
