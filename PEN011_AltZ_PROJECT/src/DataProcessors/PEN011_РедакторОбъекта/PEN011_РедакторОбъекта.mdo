@@ -9,7 +9,7 @@
     <key>ru</key>
     <value>Редактор объекта</value>
   </synonym>
-  <comment>Автор https://infostart.ru/1c/tools/983887/</comment>
+  <comment>Автор: ROL32, Публикация: https://infostart.ru/1c/tools/983887/</comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.PEN011_РедакторОбъекта.Form.ФормаОбъекта</defaultForm>
   <help>
