@@ -54,6 +54,56 @@
       </extInfo>
     </items>
     <items xsi:type="form:Decoration">
+      <name>ДекорацияНавигатор</name>
+      <id>15</id>
+      <title>
+        <key>ru</key>
+        <value>Навигатор</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ДекорацияНавигаторРасширеннаяПодсказка</name>
+        <id>17</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДекорацияНавигаторКонтекстноеМеню</name>
+        <id>16</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <shortcut>Ctrl+2</shortcut>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <handlers>
+          <event>Click</event>
+          <name>ДекорацияНавигаторНажатие</name>
+        </handlers>
+        <hyperlink>true</hyperlink>
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
       <name>ДекорацияДинамическийСписок</name>
       <id>12</id>
       <title>
@@ -93,7 +143,7 @@
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <shortcut>Ctrl+2</shortcut>
+      <shortcut>Ctrl+3</shortcut>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <handlers>
           <event>Click</event>
@@ -143,7 +193,7 @@
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <shortcut>Ctrl+3</shortcut>
+      <shortcut>Ctrl+4</shortcut>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <handlers>
           <event>Click</event>
@@ -193,7 +243,7 @@
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <shortcut>Ctrl+4</shortcut>
+      <shortcut>Ctrl+5</shortcut>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <handlers>
           <event>Click</event>

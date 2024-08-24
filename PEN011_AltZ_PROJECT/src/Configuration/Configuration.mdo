@@ -29,14 +29,14 @@
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="cf2a8ad8-a824-4cb0-b479-3d5a9e931426"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>PEN011_</namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.PEN011_ОсновнаяРоль</defaultRoles>
   <vendor>@petypen (Плешивцев Евгений)</vendor>
-  <version>0.01</version>
+  <version>0.02</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
@@ -51,7 +51,7 @@
     <value>@petypen</value>
   </copyright>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.21</compatibilityMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
   <languages uuid="3b5bcf6f-21b2-4993-847b-e9a94c1dfa9b">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -67,4 +67,5 @@
   <dataProcessors>DataProcessor.PEN011_КонсольЗапросов9000</dataProcessors>
   <dataProcessors>DataProcessor.PEN011_КонсольКода</dataProcessors>
   <dataProcessors>DataProcessor.PEN011_РедакторОбъекта</dataProcessors>
+  <dataProcessors>DataProcessor.PEN011_Навигатор</dataProcessors>
 </mdclass:Configuration>
