@@ -9,7 +9,7 @@
     <key>ru</key>
     <value>Консоль запросов 9000</value>
   </synonym>
-  <comment>GNU GPL v3.0 Автор https://infostart.ru/1c/tools/1190868/</comment>
+  <comment>Автор: kuza2000, Публикация: https://infostart.ru/1c/tools/1190868/ GNU GPL v3.0</comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.PEN011_КонсольЗапросов9000.Form.Форма</defaultForm>
   <attributes uuid="8d721d2e-8cf3-4bf0-9fc4-09fa8b506982">
