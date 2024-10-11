@@ -468,7 +468,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>_СписокЗаписейСтрокаПоиска</source>
+        <source>_СписокЗаписей</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -507,7 +507,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>_СписокЗаписейСостояниеПросмотра</source>
+        <source>_СписокЗаписей</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -546,7 +546,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>_СписокЗаписейУправлениеПоиском</source>
+        <source>_СписокЗаписей</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1125,7 +1125,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>_ДеревоОбъектовСтрокаПоиска</source>
+        <source>_ДеревоОбъектов</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1164,7 +1164,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>_ДеревоОбъектовСостояниеПросмотра</source>
+        <source>_ДеревоОбъектов</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1203,7 +1203,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>_ДеревоОбъектовУправлениеПоиском</source>
+        <source>_ДеревоОбъектов</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>

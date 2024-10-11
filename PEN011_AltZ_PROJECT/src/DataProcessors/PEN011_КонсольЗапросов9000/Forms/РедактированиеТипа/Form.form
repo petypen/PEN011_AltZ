@@ -414,7 +414,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>СоставТипаСтрокаПоиска</source>
+        <source>СоставТипа</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -453,7 +453,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>СоставТипаСостояниеПросмотра</source>
+        <source>СоставТипа</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -492,7 +492,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>СоставТипаУправлениеПоиском</source>
+        <source>СоставТипа</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1430,7 +1430,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>СтруктураТаблицыСтрокаПоиска</source>
+        <source>СтруктураТаблицы</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1469,7 +1469,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>СтруктураТаблицыСостояниеПросмотра</source>
+        <source>СтруктураТаблицы</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1508,7 +1508,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>СтруктураТаблицыУправлениеПоиском</source>
+        <source>СтруктураТаблицы</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>

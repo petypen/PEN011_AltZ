@@ -193,7 +193,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>_ДеревоПодсистемСтрокаПоиска</source>
+          <source>_ДеревоПодсистем</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -232,7 +232,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>_ДеревоПодсистемСостояниеПросмотра</source>
+          <source>_ДеревоПодсистем</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -271,7 +271,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>_ДеревоПодсистемУправлениеПоиском</source>
+          <source>_ДеревоПодсистем</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

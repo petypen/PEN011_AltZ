@@ -95,7 +95,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>_ТаблицаЗначенийСтрокаПоиска</source>
+      <source>_ТаблицаЗначений</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -134,7 +134,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>_ТаблицаЗначенийСостояниеПросмотра</source>
+      <source>_ТаблицаЗначений</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -173,7 +173,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>_ТаблицаЗначенийУправлениеПоиском</source>
+      <source>_ТаблицаЗначений</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -340,7 +340,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>_ДеревоЗначенийСтрокаПоиска</source>
+      <source>_ДеревоЗначений</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -379,7 +379,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>_ДеревоЗначенийСостояниеПросмотра</source>
+      <source>_ДеревоЗначений</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -418,7 +418,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>_ДеревоЗначенийУправлениеПоиском</source>
+      <source>_ДеревоЗначений</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
