@@ -34,7 +34,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.PEN011_ОсновнаяРоль</defaultRoles>
   <vendor>@petypen (Плешивцев Евгений)</vendor>
-  <version>0.03</version>
+  <version>0.04</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
