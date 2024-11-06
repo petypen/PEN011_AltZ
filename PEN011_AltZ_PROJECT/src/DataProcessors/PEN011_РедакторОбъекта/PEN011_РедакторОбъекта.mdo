@@ -21,47 +21,11 @@
     <key>ru</key>
     <value>Универсальная внешняя обработка для редактирования реквизитов и табличных частей объектов информационной базы, редактирование движений документов. </value>
   </explanation>
-  <forms uuid="8be0652c-1a57-4d47-8d23-ea383e5d1246">
-    <name>ФормаОбъекта</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма объекта</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="2d3bb85b-18ce-4984-a505-c9ae980364b4">
-    <name>ФормаОтображенияХЗ</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма отображения ХЗ</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="2887faf1-d16b-4a49-b938-788d6465ed9e">
     <name>ФормаВыбораОбъекта</name>
     <synonym>
       <key>ru</key>
       <value>Форма выбора объекта</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="688e024e-696e-4db5-98ae-e2cd2456f0ae">
-    <name>ФормаРедакторДвижений</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма редактор движений</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="f5ea93f9-2514-4fc7-b1d4-2bdfb384ede4">
-    <name>ФормаРедакторДвиженийДоп</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма редактор движений доп</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -84,11 +48,47 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="e1ad698d-ff8c-40da-bd84-37b19e2e8969">
-    <name>ФормаСпискаОбъектов</name>
+  <forms uuid="8be0652c-1a57-4d47-8d23-ea383e5d1246">
+    <name>ФормаОбъекта</name>
     <synonym>
       <key>ru</key>
-      <value>Форма списка объектов</value>
+      <value>Форма объекта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2387d354-d088-4f24-a2ad-4c6495f7eea1">
+    <name>ФормаОРазработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма о разработке</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2d3bb85b-18ce-4984-a505-c9ae980364b4">
+    <name>ФормаОтображенияХЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отображения ХЗ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="688e024e-696e-4db5-98ae-e2cd2456f0ae">
+    <name>ФормаРедакторДвижений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактор движений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f5ea93f9-2514-4fc7-b1d4-2bdfb384ede4">
+    <name>ФормаРедакторДвиженийДоп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактор движений доп</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -102,11 +102,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="2387d354-d088-4f24-a2ad-4c6495f7eea1">
-    <name>ФормаОРазработке</name>
+  <forms uuid="e1ad698d-ff8c-40da-bd84-37b19e2e8969">
+    <name>ФормаСпискаОбъектов</name>
     <synonym>
       <key>ru</key>
-      <value>Форма о разработке</value>
+      <value>Форма списка объектов</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

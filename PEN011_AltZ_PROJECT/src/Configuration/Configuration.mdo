@@ -64,6 +64,6 @@
   <commonForms>CommonForm.PEN011_ФормаМенеджера</commonForms>
   <dataProcessors>DataProcessor.PEN011_КонсольЗапросов9000</dataProcessors>
   <dataProcessors>DataProcessor.PEN011_КонсольКода</dataProcessors>
-  <dataProcessors>DataProcessor.PEN011_РедакторОбъекта</dataProcessors>
   <dataProcessors>DataProcessor.PEN011_Навигатор</dataProcessors>
+  <dataProcessors>DataProcessor.PEN011_РедакторОбъекта</dataProcessors>
 </mdclass:Configuration>
