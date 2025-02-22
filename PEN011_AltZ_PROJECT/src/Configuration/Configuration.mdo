@@ -34,7 +34,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.PEN011_ОсновнаяРоль</defaultRoles>
   <vendor>@petypen (Плешивцев Евгений)</vendor>
-  <version>0.04</version>
+  <version>0.05</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
@@ -66,4 +66,5 @@
   <dataProcessors>DataProcessor.PEN011_КонсольКода</dataProcessors>
   <dataProcessors>DataProcessor.PEN011_Навигатор</dataProcessors>
   <dataProcessors>DataProcessor.PEN011_РедакторОбъекта</dataProcessors>
+  <dataProcessors>DataProcessor.PEN011_КонсольЗаданий2019</dataProcessors>
 </mdclass:Configuration>

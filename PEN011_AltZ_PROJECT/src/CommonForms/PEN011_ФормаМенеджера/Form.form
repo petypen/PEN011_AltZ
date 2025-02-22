@@ -31,9 +31,9 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
+      <maxWidth>10</maxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <shortcut>Ctrl+1</shortcut>
+      <shortcut>Ctrl+Shift+J</shortcut>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <handlers>
           <event>Click</event>
@@ -71,9 +71,9 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
+      <maxWidth>10</maxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <shortcut>Ctrl+3</shortcut>
+      <shortcut>Ctrl+Shift+K</shortcut>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <handlers>
           <event>Click</event>
@@ -111,7 +111,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
+      <maxWidth>10</maxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <shortcut>Ctrl+2</shortcut>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
@@ -151,7 +151,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
+      <maxWidth>10</maxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <shortcut>Ctrl+4</shortcut>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
@@ -191,13 +191,53 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
+      <maxWidth>8</maxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <shortcut>Ctrl+5</shortcut>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <handlers>
           <event>Click</event>
           <name>ДекорацияКонсольКодаНажатие</name>
+        </handlers>
+        <hyperlink>true</hyperlink>
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ДекорацияКонсольЗаданий</name>
+      <id>18</id>
+      <title>
+        <key>ru</key>
+        <value>Консоль заданий</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ДекорацияКонсольЗаданийРасширеннаяПодсказка</name>
+        <id>20</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДекорацияКонсольЗаданийКонтекстноеМеню</name>
+        <id>19</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <maxWidth>10</maxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <shortcut>Ctrl+6</shortcut>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <handlers>
+          <event>Click</event>
+          <name>ДекорацияКонсольЗаданийНажатие</name>
         </handlers>
         <hyperlink>true</hyperlink>
         <horizontalAlign>Left</horizontalAlign>
@@ -225,7 +265,7 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
+      <group>AlwaysHorizontal</group>
       <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
@@ -271,19 +311,6 @@
       <common>true</common>
     </edit>
   </attributes>
-  <formCommands>
-    <name>Команда1</name>
-    <id>1</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>Команда1</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
   <parameters>
     <name>ИсследуемыйОбъект</name>
     <valueType>
