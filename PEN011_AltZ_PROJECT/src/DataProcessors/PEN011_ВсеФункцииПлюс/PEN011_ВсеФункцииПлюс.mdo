@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cef1a593-1ab6-4f61-8851-cd7c27663ac5">
+  <producedTypes>
+    <objectType typeId="dcfb4e07-a967-4122-8795-1088ce6bc8e4" valueTypeId="36051703-b957-41e5-a30c-b46976f2b4af"/>
+    <managerType typeId="ff8a8523-6131-4182-95ae-f143c1b73df5" valueTypeId="29ee7530-514a-4663-94d2-1a1aca63d366"/>
+  </producedTypes>
+  <name>PEN011_ВсеФункцииПлюс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Все функции</value>
+  </synonym>
+  <comment>Автор: Антон Макрушин (XilDen) Публикация: https://infostart.ru/1c/tools/2334930/</comment>
+  <defaultForm>DataProcessor.PEN011_ВсеФункцииПлюс.Form.Форма</defaultForm>
+  <forms uuid="886c5706-29c3-4b26-93e6-40bda601e125">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

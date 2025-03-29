@@ -67,4 +67,5 @@
   <dataProcessors>DataProcessor.PEN011_Навигатор</dataProcessors>
   <dataProcessors>DataProcessor.PEN011_РедакторОбъекта</dataProcessors>
   <dataProcessors>DataProcessor.PEN011_КонсольЗаданий2019</dataProcessors>
+  <dataProcessors>DataProcessor.PEN011_ВсеФункцииПлюс</dataProcessors>
 </mdclass:Configuration>
