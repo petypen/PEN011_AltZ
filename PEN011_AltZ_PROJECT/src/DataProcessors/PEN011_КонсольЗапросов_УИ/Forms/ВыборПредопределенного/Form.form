@@ -437,7 +437,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.PEN011_КонсольЗапросов9000</types>
+      <types>DataProcessorObject.PEN011_КонсольЗапросов_УИ</types>
     </valueType>
     <view>
       <common>true</common>
@@ -493,9 +493,7 @@
       <value>Элемент</value>
     </title>
     <id>4</id>
-    <valueType>
-      <types>AnyRef</types>
-    </valueType>
+    <valueType/>
     <view>
       <common>true</common>
     </view>

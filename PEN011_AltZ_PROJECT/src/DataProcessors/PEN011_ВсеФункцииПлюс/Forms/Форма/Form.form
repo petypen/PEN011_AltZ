@@ -159,7 +159,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>CommandOpenExtendedTooltip</name>
+          <name>CommandOpenРасширеннаяПодсказка</name>
           <id>108</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -186,7 +186,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>FormHelpExtendedTooltip</name>
+          <name>FormHelpРасширеннаяПодсказка</name>
           <id>115</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -275,10 +275,10 @@
       <name>TableSelection</name>
     </handlers>
     <searchStringAddition>
-      <name>TableSearchString</name>
+      <name>TableСтрокаПоиска</name>
       <id>116</id>
       <extendedTooltip>
-        <name>TableSearchStringExtendedTooltip</name>
+        <name>TableСтрокаПоискаРасширеннаяПодсказка</name>
         <id>118</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -288,7 +288,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>TableSearchStringContextMenu</name>
+        <name>TableСтрокаПоискаКонтекстноеМеню</name>
         <id>117</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -298,10 +298,10 @@
       </extInfo>
     </searchStringAddition>
     <viewStatusAddition>
-      <name>TableViewStatus</name>
+      <name>TableСостояниеПросмотра</name>
       <id>119</id>
       <extendedTooltip>
-        <name>TableViewStatusExtendedTooltip</name>
+        <name>TableСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>121</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -311,7 +311,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>TableViewStatusContextMenu</name>
+        <name>TableСостояниеПросмотраКонтекстноеМеню</name>
         <id>120</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -322,10 +322,10 @@
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
-      <name>TableSearchControl</name>
+      <name>TableУправлениеПоиском</name>
       <id>122</id>
       <extendedTooltip>
-        <name>TableSearchControlExtendedTooltip</name>
+        <name>TableУправлениеПоискомРасширеннаяПодсказка</name>
         <id>124</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -335,7 +335,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>TableSearchControlContextMenu</name>
+        <name>TableУправлениеПоискомКонтекстноеМеню</name>
         <id>123</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -346,7 +346,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>TableExtendedTooltip</name>
+      <name>TableРасширеннаяПодсказка</name>
       <id>110</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -368,7 +368,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>CommandOpen1ExtendedTooltip</name>
+          <name>CommandOpen1РасширеннаяПодсказка</name>
           <id>109</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>

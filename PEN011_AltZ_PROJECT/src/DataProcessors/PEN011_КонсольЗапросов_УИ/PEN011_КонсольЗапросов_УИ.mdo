@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17b9bd68-5b07-43da-a7e4-400316a51992">
+  <producedTypes>
+    <objectType typeId="7d748c33-1b25-4603-a7f7-34875efb741f" valueTypeId="c68c6337-afad-4d89-9594-747d13fbe009"/>
+    <managerType typeId="7809a5ef-d2f7-4d27-a582-d50713404ebf" valueTypeId="f8d8d7b5-46db-476d-b89b-99a1a0091129"/>
+  </producedTypes>
+  <name>PEN011_КонсольЗапросов_УИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль запросов [УИ]</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.PEN011_КонсольЗапросов_УИ.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Консоль запросов</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Обработка для разработки и выполнения запросов без написания дополнительных обработок</value>
+  </explanation>
+  <attributes uuid="408b508b-0973-4185-984d-be9e2984105c">
+    <name>ВерсияОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия обработки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1f527d32-ba7b-4d02-9f71-cf18ae34ed56">
+    <name>ВерсияСборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия сборки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0d5bccc4-a072-45e6-84ed-23be2bb44b36">
+    <name>Заголовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c87553e0-3aa6-4641-ad40-6857ddb36614">
+    <name>ИмяОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя обработки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="af2cfe94-06de-44e9-bf25-ec26c2598c71">
+    <name>ИмяФайлаОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла обработки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8c25001c-2e0a-44a2-8ddb-9b8f0b58e60c">
+    <name>Картинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="073653e0-7513-4e70-85e6-6fa5c57f4754">
+    <name>КаталогТехнологическогоЖурнала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог технологического журнала</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="991044ba-918a-43b1-a001-8f3ea0e3264b">
+    <name>МеткаСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метка сеанса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8d151f9f-f904-46ca-9378-ad82315cc1de">
+    <name>ОпцияИнтервалОбновленияВыполненияАлгоритма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опция интервал обновления выполнения алгоритма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="05cea3c2-6fd8-47cf-8892-3c4e8f1029b0">
+    <name>ОпцияОбрабатывать__</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрабатывать макро-колонки &amp;&amp;__</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="67bc97a4-6011-440b-b295-c2f04009b110">
+    <name>ПутьМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь метаданных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4cec4fe2-a469-4efb-9bd3-df596138b7b3">
+    <name>РасширениеЗахваченныхЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение захваченных запросов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ae28861e-5bef-4ebc-ae84-233fea9f4cff">
+    <name>РежимЗапускаВнешняяОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим запуска внешняя обработка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2df55525-7b1b-4456-9f5c-e27b83ae09a1">
+    <name>СеансИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сеанс ИД</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2311f003-f028-4750-b9ea-bb29e16b3c0c">
+    <name>СохраняемыеСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохраняемые состояния</value>
+    </synonym>
+    <comment>Сохраняемые состояния - структура, предназначена для сохранения значений, которых нет в опциях (состояния флажков форм, разных значений, и т.д.).Записывается в файл. Из файла читается только при первом открытии.</comment>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="543e87f7-de39-4d88-8bd2-db477567744b">
+    <name>СтрокаИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка ИБ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="44591912-ee1a-4865-bf25-f1f6b69885ef">
+    <name>СтруктураХранинияИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура храниния ИБ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4a71b75d-5803-45ba-a999-0051600950b4">
+    <name>ТехнологическийЖурналВключен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технологический журнал включен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="6ea48d4e-6eb6-432a-8917-991221af9f85">
+    <name>ВыборМакроКолонки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор макро колонки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="834ede45-d6a7-436d-99d8-3234904c99ac">
+    <name>ВыборПредопределенного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор предопределенного</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="568ba8c5-9b2b-42f7-a939-8f9840f6210b">
+    <name>Информация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="614ec8e6-eab7-4056-ac77-f5ed4b317ab8">
+    <name>ПодборВСписок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор в список</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="052cc3dd-4728-4797-8d1c-f173b0332e11">
+    <name>РедактированиеГраницыМомента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование границы момента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="82b7f7d9-33e4-4fc8-8f18-2701b815d2ce">
+    <name>РедактированиеТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование таблицы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="55501169-3af6-4d9a-9459-865b0973498e">
+    <name>РедактированиеТипа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование типа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d4bb00a1-fc7d-488a-a47c-097a6740f644">
+    <name>РедактированиеУникальногоИдентификатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование уникального идентификатора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="eeb71b85-c46e-43ef-b933-11d1010c88d4">
+    <name>Справка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="61febaad-d31f-4890-8cce-23dd153bfdd2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b9f7a86f-219d-43ce-806d-d4cb2000fd82">
+    <name>ФормаКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма кода</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7523c076-483e-427f-9b27-b260d093bce0">
+    <name>ФормаПланаЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма плана запроса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bd9807cc-2574-4925-9216-f3e839f3d4fb">
+    <name>ФормаТабличногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма табличного документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="37376d5d-d046-49ba-bb46-5bb50272abd0">
+    <name>Картинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинки</value>
+    </synonym>
+  </templates>
+  <templates uuid="90e33bd1-485e-4249-8167-7da94edbb19c">
+    <name>МакетКонфигурацииТЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет конфигурации ТЖ</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="f3b9d814-1827-4a9c-a236-baeaab33e8f7">
+    <name>СправкаАлгоритм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка по обработке кодом</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

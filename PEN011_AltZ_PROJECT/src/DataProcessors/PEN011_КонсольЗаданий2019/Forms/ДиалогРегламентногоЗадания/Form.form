@@ -536,6 +536,7 @@
           <name>ПараметрыЗаданияНомерСтроки</name>
           <id>71</id>
           <visible>true</visible>
+          <enabled>false</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
@@ -588,7 +589,7 @@
             <name>ПараметрыЗаданияЗначениеПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ПараметрыЗаданияЗначение1РасширеннаяПодсказка</name>
+            <name>ПараметрыЗаданияЗначениеРасширеннаяПодсказка</name>
             <id>76</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -598,7 +599,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПараметрыЗаданияЗначение1КонтекстноеМеню</name>
+            <name>ПараметрыЗаданияЗначениеКонтекстноеМеню</name>
             <id>75</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -620,6 +621,7 @@
           <name>ПараметрыЗаданияТип</name>
           <id>77</id>
           <visible>true</visible>
+          <enabled>false</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>

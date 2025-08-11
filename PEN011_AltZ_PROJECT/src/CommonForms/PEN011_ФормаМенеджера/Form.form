@@ -161,6 +161,46 @@
         </extInfo>
       </items>
       <items xsi:type="form:Decoration">
+        <name>ДекорацияКонсольЗапросов1</name>
+        <id>30</id>
+        <title>
+          <key>ru</key>
+          <value>Консоль запросов 1</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ДекорацияКонсольЗапросов1РасширеннаяПодсказка</name>
+          <id>32</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДекорацияКонсольЗапросов1КонтекстноеМеню</name>
+          <id>31</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>Label</type>
+        <maxWidth>10</maxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <shortcut>Ctrl+4</shortcut>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <handlers>
+            <event>Click</event>
+            <name>ДекорацияКонсольЗапросов1Нажатие</name>
+          </handlers>
+          <hyperlink>true</hyperlink>
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </items>
+      <items xsi:type="form:Decoration">
         <name>ДекорацияКонсольКода</name>
         <id>9</id>
         <title>

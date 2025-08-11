@@ -17,17 +17,30 @@
       <lang>ru</lang>
     </pages>
   </help>
-  <forms uuid="b2182374-43bb-4671-811d-67ab32adc3a4">
-    <name>Форма</name>
+  <forms uuid="3bed3515-a15c-4b74-8722-437e0a5453f3">
+    <name>ДиалогНастроекСписка</name>
     <synonym>
       <key>ru</key>
-      <value>Форма</value>
+      <value>Диалог настроек списка</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1167be4e-aca5-467d-a973-23fbcc8ab307">
+    <name>ДиалогОтбораРегламентногоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог отбора регламентного задания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1043180d-6e03-4443-ba0a-c3c014f95ae0">
+    <name>ДиалогОтбораФоновогоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог отбора фонового задания</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -54,30 +67,17 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="1167be4e-aca5-467d-a973-23fbcc8ab307">
-    <name>ДиалогОтбораРегламентногоЗадания</name>
+  <forms uuid="b2182374-43bb-4671-811d-67ab32adc3a4">
+    <name>Форма</name>
     <synonym>
       <key>ru</key>
-      <value>Диалог отбора регламентного задания</value>
+      <value>Форма</value>
     </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="1043180d-6e03-4443-ba0a-c3c014f95ae0">
-    <name>ДиалогОтбораФоновогоЗадания</name>
-    <synonym>
-      <key>ru</key>
-      <value>Диалог отбора фонового задания</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="3bed3515-a15c-4b74-8722-437e0a5453f3">
-    <name>ДиалогНастроекСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Диалог настроек списка</value>
-    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
