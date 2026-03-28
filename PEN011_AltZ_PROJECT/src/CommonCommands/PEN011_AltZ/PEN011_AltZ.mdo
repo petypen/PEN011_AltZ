@@ -7,7 +7,6 @@
   </synonym>
   <comment>Старт менеджера инструментов разрработчика</comment>
   <group>ActionsPanelTools</group>
-  <commandParameterType/>
   <representation>Auto</representation>
   <shortcut>Alt+Z</shortcut>
 </mdclass:CommonCommand>

@@ -47,6 +47,7 @@
       <textColor xsi:type="core:ColorRef">
         <color>Style.FieldSelectionBackColor</color>
       </textColor>
+      <textSize>Normal</textSize>
       <font xsi:type="core:FontRef">
         <font>Style.TextFont</font>
         <bold>true</bold>
@@ -95,6 +96,7 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
+      <textSize>Normal</textSize>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -144,6 +146,7 @@
       <textColor xsi:type="core:ColorRef">
         <color>Web.Blue</color>
       </textColor>
+      <textSize>Normal</textSize>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -193,6 +196,7 @@
       <textColor xsi:type="core:ColorRef">
         <color>Web.Blue</color>
       </textColor>
+      <textSize>Normal</textSize>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -242,9 +246,11 @@
       <textColor xsi:type="core:ColorRef">
         <color>Web.Blue</color>
       </textColor>
+      <textSize>Normal</textSize>
     </extInfo>
   </items>
   <commandBarLocation>Bottom</commandBarLocation>
+  <showCommandBar>true</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -298,9 +304,9 @@
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <width>40</width>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <windowOpeningMode>LockOwner</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
-  <group>Vertical</group>
+  <group>Auto</group>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <scalingMode>Compact</scalingMode>

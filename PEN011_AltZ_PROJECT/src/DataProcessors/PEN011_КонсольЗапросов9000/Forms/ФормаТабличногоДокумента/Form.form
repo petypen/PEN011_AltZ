@@ -25,6 +25,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Item.Документ.StandardCommand.Save</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Picture</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -51,6 +52,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Item.Документ.StandardCommand.Print</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Picture</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -77,6 +79,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Item.Документ.StandardCommand.Preview</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -103,6 +106,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Item.Документ.StandardCommand.PageSetup</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -136,6 +140,7 @@
       <type>Popup</type>
       <extInfo xsi:type="form:PopupGroupExtInfo">
         <representation>Auto</representation>
+        <importance>Normal</importance>
       </extInfo>
     </items>
     <items xsi:type="form:Button">
@@ -157,6 +162,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Item.Документ.StandardCommand.ShowHeaders</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Picture</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -183,6 +189,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Item.Документ.StandardCommand.Edit</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Picture</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -209,6 +216,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Item.Документ.StandardCommand.Merge</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Picture</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -235,6 +243,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Item.Документ.StandardCommand.Undo</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -261,6 +270,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Item.Документ.StandardCommand.Redo</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Picture</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -290,6 +300,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Item.Документ.StandardCommand.ShowGroups</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Picture</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -316,6 +327,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Item.Документ.StandardCommand.CollapseAllGroups</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Picture</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -342,6 +354,7 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Item.Документ.StandardCommand.ExpandAllGroups</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Picture</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -474,11 +487,11 @@
   <height>30</height>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
-  <group>Vertical</group>
+  <group>Auto</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
